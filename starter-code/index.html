@@ -1,34 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-  <head>
-    <title>Memory Game</title>
-  </head>
-  
-    <nav class="clearfix">
-      <a href="#">Instructions</a>
-      <a href="#">Game</a>
-    </nav>
-    
-    <body>
-    	<h1>Memory Game</h1>
-    	<h2>Instructions</h2>
-    	<p>
-    		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are         flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
-    	</p>
-    	
-    	<div class="board">
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-  	</div>
-  
-  	<footer>
-  		Created with &hearts; by <span class="name">GA</span>
-	</footer>
+<html>
+<link rel="stylesheet" type ="text/css" href = "style.css">
 
-     </body>
+<head>
+	<title>Memory Game</title>
+</head>
 
+<body>
+	<nav class = "clearfix">
+		<a href="#">Instructions</a>
+		<a href="#">Game</a>
+	</nav>
+	<hr>
+	<h1>Memory Game</h1>
+	<h2>Instructions</h2>
+	<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards</p>
+	<div class ="wrapperz">
+	<h3>Scoreboard</h3>
+	<p> You have <div id= "matches-displayed"></div> matches <div id ="misses-displayed"></div> misses </p>
+     </div>
 
+	<div class="wrapper">
+		<div id="game-board" class="board">
+
+		</div>
+	</div>
+	<footer>&#9748 Made by yours truly, <span class = "name">J sweet </span> &#9748</footer>
+<script src="main.js"></script>
+</body>
 </html>
